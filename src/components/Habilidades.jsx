@@ -1,12 +1,12 @@
 const Habilidades = () => {
     return ( <>
-    <div  data-aos="fade-right" className='w-full h-max mt-12 	'><h1 className=' mt-24 text-white text-2xl mt-2 font-bold text-center 	 '>HABILIDADES</h1>
+    <div  data-aos="fade-right" className='w-full h-max mt-12 	'><h1 className=' mt-24 text-white text-2xl mt-2 font-bold text-center mb-12 	 '>HABILIDADES</h1>
 
 
 </div>
 
-<div  data-aos="fade-right" className=' h-max w-screen  grid  grid-cols-2 sm:grid-cols-5 gap-0 justify-items-center  items-center mt-24'>
-    
+<div  data-aos="fade-right" className='  h-max w-full  grid  grid-cols-2 gap-2 sm:grid-cols-5  justify-items-center  items-center mt-24'>
+
 <div className='h-max  bg-[#13131F] mt-2 grid 	justify-items-center  items-center  w-32'>
     <p className=' p-4 text-[#8257E6] text-center font-bold'>HTML 5</p>
     <img className='h-8' src='src/assets\html.svg'></img>
