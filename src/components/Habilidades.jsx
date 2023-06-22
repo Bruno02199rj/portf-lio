@@ -1,6 +1,6 @@
 const Habilidades = () => {
     return ( <>
-    <div  data-aos="fade-right" className='w-full h-max mt-12 	'><h1 className=' mt-24 text-white text-2xl mt-2 font-bold text-center mb-12 	 '>HABILIDADES</h1>
+    <div  data-aos="fade-right" className='w-full h-max mt-12 	'><h1 className=' mt-72 text-white text-2xl mt-2 font-bold text-center mb-24 	 '>HABILIDADES</h1>
 
 
 </div>
@@ -38,36 +38,8 @@ ms-center  w-32'>
     <div className='w-full h-0.5 mt-6  w-full bg-gradient-to-l from-violet-900 to-fuchsia-800 '></div>
     
 </div>
-<div className='h-max  bg-[#13131F] mt-2 grid 	justify-items-center  items-center  w-32'>
-    <p className='p-4 text-[#8257E6] text-center font-bold'>HTML 5</p>
-    <img className='h-8' src='src/assets\html.svg'></img>
-    <div className='w-full h-0.5 mt-6  w-full bg-gradient-to-l from-violet-900 to-fuchsia-800 '></div>
-    
-</div>
-<div className='h-max  bg-[#13131F] mt-2 grid 	justify-items-center  items-center  w-32'>
-    <p className='p-4 text-[#8257E6] text-center font-bold'>HTML 5</p>
-   <img className='h-8' src='src/assets\html.svg'></img>
-    <div className='w-full h-0.5 mt-6  w-full bg-gradient-to-l from-violet-900 to-fuchsia-800 '></div>
-    
-</div>
-<div className='h-max  bg-[#13131F] mt-2 grid 	justify-items-center  items-center  w-32'>
-    <p className='p-4 text-[#8257E6] text-center font-bold'>HTML 5</p>
-   <img className='h-8' src='src/assets\html.svg'></img>
-    <div className='w-full h-0.5 mt-6  w-full bg-gradient-to-l from-violet-900 to-fuchsia-800 '></div>
-    
-</div>
-<div className='h-max  bg-[#13131F] mt-2 grid 	justify-items-center  items-center  w-32'>
-    <p className='p-4 text-[#8257E6] text-center font-bold'>HTML 5</p>
-   <img className='h-8' src='src/assets\html.svg'></img>
-    <div className='w-full h-0.5 mt-6  w-full bg-gradient-to-l from-violet-900 to-fuchsia-800 '></div>
-    
-</div>
-<div className='h-max  bg-[#13131F] mt-2 grid 	justify-items-center  items-center  w-32'>
-    <p className='p-4 text-[#8257E6] text-center font-bold'>HTML 5</p>
-   <img className='h-8' src='src/assets\html.svg'></img>
-    <div className='w-full h-0.5 mt-6  w-full bg-gradient-to-l from-violet-900 to-fuchsia-800 '></div>
-    
-</div>
+
+
 </div>
     </> );
 }

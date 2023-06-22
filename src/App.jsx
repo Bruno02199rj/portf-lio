@@ -7,6 +7,7 @@ import "aos/dist/aos.css"
 import Header from './components/Header';
 import Habilidades from './components/Habilidades';
 
+
 import Projects from './components/Projects';
 
 function App() {
@@ -22,9 +23,9 @@ const [modal,setModal] = useState()
 
 
   const numbers = [
-    {nome:'res',descrição:'res',email:'brunodim1@hotmail.com',stack:['tawind ' , 'vite ', 'reactjs']},
-     {nome:'resssssss',descrição:'ressssssssss',email:'bssssssssrunodim1@hotmail.com',stack:['tawind sss' , 'vitessss ', 'reactjssssss']},
-     {nome:'resssssss',descrição:'ressssssssss',email:'bssssssssrunodim1@hotmail.com',stack:['tawind sss' , 'vitessss ', 'reactjssssss']}
+    {nome:'Netflix',descrição:'Interface da famosa aplicação Netflix neste projeto ',email:'brunodim1@hotmail.com',stack:['tawind ' , 'vite ', 'reactjs'],image:'src/assets/Capturar best21.PNG',url:'src/assets/rec-tab.webm',repo:'https://github.com/Bruno02199rj/GetRep',project:'https://netflix-clone-d07bc.web.app/'},
+     {nome:'resssssss',descrição:'ressssssssss',email:'bssssssssrunodim1@hotmail.com',stack:['tawind sss' , 'vitessss ', 'reactjssssss'],image:'src/assets/Capturar.PNG',url:'https://www.youtube.com/watch?v=ysz5S6PUM-U',repo:'https://github.com/Bruno02199rj/GetRep',project:'https://netflix-clone-d07bc.web.app/'},
+     {nome:'resssssss',descrição:'ressssssssss',email:'bssssssssrunodim1@hotmail.com',stack:['tawind sss' , 'vitessss ', 'reactjssssss'],image:'src/assets/Capturar.PNG',url:'https://www.youtube.com/watch?v=1ttgYKTOyb0',repo:'https://github.com/Bruno02199rj/GetRep',project:'https://netflix-clone-d07bc.web.app/'}
 
   
   
@@ -59,16 +60,14 @@ console.log(numbers)
 
 
 
-<div className='h-0.5   w-full bg-gradient-to-l from-violet-900 to-fuchsia-800 mt-12'> </div>
+<div className='h-0.5    w-full bg-gradient-to-l from-violet-900 to-fuchsia-800 mt-12'> </div>
 
 
-<div className='h-max  w-full flex text-center  justify-center   '>
+<div className='h-max  w-full flex text-center  justify-center lg:mt-52  '>
 <div  data-aos="fade-right"  className=' aling-center  px-4 sm:w-full lg:w-1/2   '>
-<h1 className='text-white text-4xl mb-12 mt-20'>I'm a Software Engineer.</h1>
+<h1 className='text-white text-3xl mb-12 mt-20  font-bold'>Sobre mim</h1>
  
- <span className='text-[#828282] leading-4  text-center text-1xl pt-12 '>A self-taught UI/UX designer, functioning in the industry for 3+ years now.
-I make meaningful and delightful digital products that create an equilibrium
-between user needs and business goalsssssssssssss Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, sit quis vero itaque ipsa molestiae est dicta iste sunt atque consequatur cumque, nisi repudiandae sapiente ex nesciunt et perferendis ipsum.</span>  
+ <span className='text-[#828282] leading-4  text-center text-1xl pt-12  '>Desenvolvedor Front-end com experiência em React.js, Next.js, Redux, JavaScript, TypeScript, Styled Components, Material UI e consumo de APIs REST. Apaixonado pelo desenvolvimento de componentes reutilizáveis. Também possui experiência em projetos gerenciados por Metodologias Ágeis. Formado em Sistemas de Informação e cursando Especialização em Front-End na Digital House Brasil.</span>  
 </div>
 </div>
 
