@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import "./App.css";
 import * as React from "react";
 import Aos from "aos";
-import "aos/dist/aos.css";
+import  "aos/dist/aos.css";
 import Header from "./components/Header";
 import Habilidades from "./components/Hability";
 import Projects from "./components/Projects";
