@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import "./App.css";
 import * as React from "react";
 import Aos from "aos";
-import  "aos/dist/aos.css";
+import "aos/dist/aos.css";
 import Header from "./components/Header";
 import Habilidades from "./components/Hability";
 import Projects from "./components/Projects";
@@ -17,20 +17,36 @@ function App() {
 
   const data = [
     {
-      name: "Netflix",
-      description: "Interface da famosa aplicação Netflix neste projeto ",
+      name: "Netflix Clone",
+      fullDescription:
+        "Netflix clone é uma pequena aplicação criada no intuito de praticar meus conhecimentos nas tecnologias abordadas. Basicamente fazemos uma requisição via uma API que retorna informações de cada filme ela também retorna o trailer do filme. Os Filmes ficam separados por categoria.",
+      description:
+        "Netflix clone é uma pequena aplicação criada no intuito de praticar meus conhecimentos nas tecnologias abordadas. ",
       email: "brunodim1@hotmail.com",
-      stack: ["tawind ", "vite ", "reactjs"],
+      stack: [
+        "src/assets/tailwindcss.svg",
+        "src/assets/javascript.svg",
+        "src/assets/react.svg",
+        "src/assets/figma.svg",
+      ],
+      stackName:['• REACT JS','• TAILWINDCSS','• FIGMA','• TMDB API ( The Movie Database O Banco de Dados de Filmes, mais conhecido pela sigla TMDb, é uma base de dados grátis e de código aberto, sobre filmes e seriados)' ],
       image: "src/assets/Capturar best21.PNG",
       url: "src/assets/rec-tab.webm",
       repo: "https://github.com/Bruno02199rj/GetRep",
       project: "https://netflix-clone-d07bc.web.app/",
     },
     {
-      name: "Clima",
-      description: "loremdsahudhhd dhsaudhusahudahusad",
+      name: "WheatherWeb",
+      fullDescription:" WeatherWeb é uma aplicação web que exibe a condição climática de todas as cidades, bairros, estados ou países do mundo. Obtendo tanto os dados da temperatura atual, quanto de todo dia, além da velocidade do vento, nível de umidade, data/hora e temperatura máxima e mínima. ",
+      description: "WeatherWeb é uma aplicação web que exibe a condição climática de todas as cidades, bairros, estados ou países do mundo",
       email: "bssssssssrunodim1@hotmail.com",
-      stack: ["tawind sss", "vitessss ", "reactjssssss"],
+      stack: [
+        "src/assets/tailwindcss.svg",
+        "src/assets/javascript.svg",
+        "src/assets/react.svg",
+        "src/assets/figma.svg",
+      ],
+      stackName:['• REACT JS','• TAILWINDCSS','• FIGMA',' • WHEATHERAPI ( Acesso a estações meteorológicas globais em tempo real e milhões de pontos meteorológicos de alta resolução)' ],
       image: "src/assets/app-clima-img.PNG",
       url: "src/assets/rec-tab-f.mp4",
       repo: "https://github.com/Bruno02199rj/App-de-Clima",
@@ -38,9 +54,16 @@ function App() {
     },
     {
       name: "resssssss",
+      fullDescription: "djuasijdas",
       description: "ressssssssss",
       email: "bssssssssrunodim1@hotmail.com",
-      stack: ["tawind sss", "vitessss ", "reactjssssss"],
+      stack: [
+        "src/assets/tailwindcss.svg",
+        "src/assets/javascript.svg",
+        "src/assets/react.svg",
+        "src/assets/figma.svg",
+      ],
+      stackName:['• REACT JS',' • TAILWINDCSS',' • FIGMA', ],
       image: "src/assets/Capturar.PNG",
       url: "https://www.youtube.com/watch?v=1ttgYKTOyb0",
       repo: "https://github.com/Bruno02199rj/GetRep",
@@ -101,7 +124,8 @@ function App() {
                 meus projetos seguindo as boas praticas ultilizadas no
                 desenvolvimento de software e estou sempre em busca de aprimorar
                 ainda mais meus conhecimentos . atualmente ando estudando
-                typeScript, hooks como useRef,UseMemo,etc .
+                typeScript, testes unitarios, testes end-to-end,testes de
+                integração, hooks como useRef,UseMemo,etc .
               </span>
             </div>
           </div>

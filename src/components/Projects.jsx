@@ -34,25 +34,26 @@ const Projects = ({ data }) => {
             <>
               <div
                 onClick={() => modal(item)}
-                className=" h-96 w-64 sm:h-96 lg:h-80 lg:w-72  sm:w-96 hover:mix-blend-normal  hover:scale-[1.1] transition duration-150 ease-out hover:ease-in bg-gradient-to-l from-transparent 	 from-[#130428] to-fuchsia-950 mx-4 my-4"
+                className=" h-[20rem]  w-64 sm:h-96 lg:h-[22rem] lg:w-72  sm:w-96 hover:mix-blend-normal  hover:scale-[1.1] transition duration-150 ease-out hover:ease-in bg-gradient-to-l from-transparent 	 from-[#130428] to-fuchsia-950 mx-4 my-4"
               >
                 <div className="w-full h-52 ">
                   <img src={item.image}></img>
-                  <div className="h-32 px-4 w-full mt-8 ">
-                    <span className="text-white text-2xl font-bold">
+                  <div className="h-12 px-4 w-full mt-8 ">
+                    <span className="text-white text-1xl font-bold">
                       {item.name}
                     </span>
                     <br />
-                    <span className="text-[#828282]">{item.description}</span>
-                    <div className="flex mt-8 text-sm">
+                    <span className="text-[#828282] text-sm">{item.description}</span>
+                    <div className="flex  mt-2 text-sm">
+                      
+
+                   
                       {item.stack.map((item) => {
+              
+
                         return (
                           <>
-                            <div className="h-6 w-32 bg-slate-950	 text-center rounded mr-2 ">
-                              <p className="text-[#38BDF8] text-[0.6rem] 	 font-bold	">
-                                {item}
-                              </p>
-                            </div>
+                            <img className="h-6 mt-2 mx-1.5 w-6" src={item}></img>
                           </>
                         );
                       })}
@@ -194,7 +195,7 @@ const Projects = ({ data }) => {
           class=" backdrop-blur-sm mt-4  overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-30 w-full md:inset-0 h-full justify-center items-center"
         >
           <div class="relative z-40  p-0 scale-100  mt-12  ">
-            <div class="relative bg-white   rounded-lg shadow dark:bg-[#13131F]">
+            <div class="relative bg-white rounded-lg shadow dark:bg-[#13131F]">
               <div class="flex justify-between items-start p-5 dark:border-gray-600">
                 <h3 class="text-xl font-semibold dark:text-[#8257E6] lg:text-2xl text-white">
                   {modalData.name}
@@ -214,9 +215,10 @@ const Projects = ({ data }) => {
               </div>
 
               <div class="px-6  h-full w-full  mb-4">
-                <div className="h-full w-full  sm:flex  lg:mr-8">
-                  <div className="h-max w-full md:w-1/2 mb-12">
-                    {" "}
+                <div className="h-full w-full lg:flex     ">
+                  <div className="h-max w-full lg:w-full mb-2">
+                      
+                  
                     <ReactPlayer
                       loop={true}
                       playing={true}
@@ -225,14 +227,25 @@ const Projects = ({ data }) => {
                       height="100%"
                     />
                   </div>
+                
+          
+                  <p class="text-base md:w-full sm:w-full lg:ml-6  leading-relaxed text-gray-600 dark:text-gray-400">
+                  
+                    {modalData.fullDescription}
+         
+                    <p className="mt-4 text-sm">Tecnologias usadas nesse  projeto:</p>
+                    {modalData.stackName.map((e)=><p className="h-max  mr-2 w-full" >{e}</p>)}
 
-                  <p class="text-base w-full sm:w-max sm:ml-6  leading-relaxed text-gray-600 dark:text-gray-400">
-                    {modalData.description}
                   </p>
                 </div>
               </div>
 
+              <div className="h-max ml-6   w-24  flex ">
+             {modalData.stack.map((e)=><img className="h-6 mr-2 w-6" src={e}></img>)}
+
+             </div>
               <div class="flex items-center  py-4 pl-6 space-x-2 rounded-b dark:border-gray-600">
+              
                 <a
                   target="_blank"
                   href={modalData.project}
@@ -250,9 +263,12 @@ const Projects = ({ data }) => {
                   type="button"
                   class="text-white bg-gradient-to-l from-violet-900 to-fuchsia-800 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 text-center inline-flex items-center  hover:scale-[1.02] transition-transform"
                 >
-                  Repositírio
+                  Repositório
                 </a>
+              
               </div>
+              
+            
             </div>
           </div>
         </div>
