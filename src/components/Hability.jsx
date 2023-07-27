@@ -8,8 +8,15 @@ const Habilidades = () => {
 <div  data-aos="fade-right" className='  h-max w-full  grid  grid-cols-2 gap-2 sm:grid-cols-5  justify-items-center  items-center mt-24'>
 
 <div className='h-max  bg-[#13131F] mt-2 grid 	justify-items-center  items-center  w-32'>
-    <p className=' p-4 text-[#8257E6] text-center font-bold'>HTML 5</p>
+    <p className=' p-4 text-[#8257E6] text-center font-bold'>HTML </p>
     <img className='h-8' src='src/assets\html.svg'></img>
+    <div className='w-full h-0.5 mt-6   w-full bg-gradient-to-l from-violet-900 to-fuchsia-800 '></div>
+    
+</div>
+
+<div className='h-max  bg-[#13131F] mt-2 grid 	justify-items-center  items-center  w-32'>
+    <p className=' p-4 text-[#8257E6] text-center font-bold'>CSS</p>
+    <img className='h-8' src='src/assets/css.svg'></img>
     <div className='w-full h-0.5 mt-6   w-full bg-gradient-to-l from-violet-900 to-fuchsia-800 '></div>
     
 </div>
@@ -30,6 +37,13 @@ ms-center  w-32'>
     <p className='p-4 text-[#8257E6] text-center font-bold'>REACT</p>
     <img className='h-8' src='src/assets\react.svg'></img>
     <div className='w-full h-0.5 mt-6  w-full bg-gradient-to-l from-violet-900 to-fuchsia-800 '></div>
+    
+</div>
+<div className='h-max  bg-[#13131F] mt-2 grid 	justify-items-center  ite
+ms-center  w-32'>
+    <p className='p-4 text-[#8257E6] text-center font-bold'>NODEJS</p>
+    <img className='h-14' src='src/assets/node.svg'></img>
+    <div className='w-full h-0.5   w-full bg-gradient-to-l from-violet-900 to-fuchsia-800 '></div>
     
 </div>
 <div className='h-max  bg-[#13131F] mt-2 grid 	justify-items-center  items-center  w-32'>

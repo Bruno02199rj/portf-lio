@@ -53,19 +53,20 @@ function App() {
       project: "https://app-clima-c469d.web.app/",
     },
     {
-      name: "resssssss",
-      fullDescription: "djuasijdas",
-      description: "ressssssssss",
+      name: "Loja",
+      fullDescription: "Loja é uma aplicação full-stack que consiste em uma apiREST(criada com node) que cadastra produtos os produtos e sua informações no banco de dados. já no lado do cliente fazemos uma requisição http a essa api que nos retorna tais produtos e suas informações pertinentes   ",
+      description: "Loja é uma aplicação full-stack que consiste em uma apiREST que cadastra os produtos e do lado do cliente através de requisições http os exibimos",
       email: "bssssssssrunodim1@hotmail.com",
       stack: [
         "src/assets/tailwindcss.svg",
         "src/assets/javascript.svg",
         "src/assets/react.svg",
         "src/assets/figma.svg",
+        "src/assets/node.svg",
       ],
-      stackName:['• REACT JS',' • TAILWINDCSS',' • FIGMA', ],
-      image: "src/assets/Capturar.PNG",
-      url: "https://www.youtube.com/watch?v=1ttgYKTOyb0",
+      stackName:['• REACT JS',' • TAILWINDCSS',' • FIGMA','• NODEJS', ],
+      image: "src/assets/CAP-loja.PNG",
+      url: "src/assets/lotus-rec.mp4",
       repo: "https://github.com/Bruno02199rj/GetRep",
       project: "https://netflix-clone-d07bc.web.app/",
     },
@@ -102,7 +103,7 @@ function App() {
             <img className="h-8 pr-2" src="src/assets\phone.svg"></img>
           </div>
 
-          <div className="h-0.5    w-full bg-gradient-to-l from-violet-900 to-fuchsia-800  mt-12">
+          <div className="  h-0.5    w-full bg-gradient-to-l from-violet-900 to-fuchsia-800  mt-12">
             {" "}
           </div>
 
@@ -119,7 +120,7 @@ function App() {
                 Meu name é Bruno Henrique sou desenvolvedor Front-end. com
                 experiência em React.js, JavaScript, Tailwind, Figma e consumo
                 de APIs REST. Também possuo experiência em desenvolvimento
-                back-end com NodeJs, Express, WebSockets e Banco de dados
+                back-end com NodeJs, Express, WebSockets e Banco de dados (MongoDB)
                 Cursando Ciencia da computação. Me preocupo muito em desenvolver
                 meus projetos seguindo as boas praticas ultilizadas no
                 desenvolvimento de software e estou sempre em busca de aprimorar

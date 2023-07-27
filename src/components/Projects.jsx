@@ -34,7 +34,7 @@ const Projects = ({ data }) => {
             <>
               <div
                 onClick={() => modal(item)}
-                className=" h-[20rem]  w-64 sm:h-96 lg:h-[22rem] lg:w-72  sm:w-96 hover:mix-blend-normal  hover:scale-[1.1] transition duration-150 ease-out hover:ease-in bg-gradient-to-l from-transparent 	 from-[#130428] to-fuchsia-950 mx-4 my-4"
+                className=" h-[24rem]  w-full mb-8 sm:h-96 lg:h-[22rem] lg:w-72  sm:w-96 hover:mix-blend-normal  hover:scale-[1.1] transition duration-150 ease-out hover:ease-in bg-gradient-to-l from-transparent 	 from-[#130428] to-fuchsia-950 mx-4 my-4"
               >
                 <div className="w-full h-52 ">
                   <img src={item.image}></img>
@@ -229,7 +229,7 @@ const Projects = ({ data }) => {
                   </div>
                 
           
-                  <p class="text-base md:w-full sm:w-full lg:ml-6  leading-relaxed text-gray-600 dark:text-gray-400">
+                  <p class="text-base md:w-full text-[#828282] text-sm sm:w-full lg:ml-6  leading-relaxed ">
                   
                     {modalData.fullDescription}
          
