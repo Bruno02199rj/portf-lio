@@ -83,7 +83,7 @@ function App() {
             className="h-12  w-full ml-42 flex justify-center"
           >
             <div className="h-48   grid justify-center 	mt-24  w-48 rounded-full bg-gradient-to-l from-violet-900 to-fuchsia-800 from-transparent	 ">
-              <img className="h-36    m-0 " src="src\assets\image 1.png"></img>
+              <img className="h-36    m-0 " src="src\assets\Image 1.png"></img>
             </div>
           </div>
           <div className="md:break h-52 w-72 px-4  radius-xl  mt-80 lg:mt-12 ">
