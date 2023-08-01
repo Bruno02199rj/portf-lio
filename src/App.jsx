@@ -18,7 +18,7 @@ import  Netflix from "../src/assets/netflix.png"
 import NetflixDemo from "../src/assets/rec-tab.webm"
 import Clima from "../src/assets/app-clima.png"
 import ClimaDemo from "../src/assets/rec-tab-f.mp4"
-import Loja from "../src/assets/CAP-loja.png"
+import Loja from "../src/assets/cap-loja.png"
 import LojaDemo from "../src/assets/lotus-rec.mp4"
 
 function App() {
