@@ -156,21 +156,21 @@ function App() {
           <div className="h-full w-full  ">
             <div className="w-full h-12 mt-48 min-[320px]:grid-cols-2 aling-center    grid  sm:grid-cols-4   justify-items-center  items-center">
               <div className="h-24 w-max   mt-2 grid 	justify-items-center  items-center ">
-                <img className="h-8" src="src/assets\mail.svg"></img>
+                <img className="h-8" src={Mail}></img>
                 <p className="text-white font-bold text-md">E-mail</p>
                 <p className="text-white  text-sm text-slate-400">
                   brunodim1@hotmail.com
                 </p>
               </div>
               <div className="h-24 w-max   mt-2 grid 	justify-items-center  items-center ">
-                <img className="h-8" src="src/assets\phone.svg"></img>
+                <img className="h-8" src={Phone}></img>
                 <p className="text-white font-bold text-md">Telefone</p>
                 <p className="text-white  text-sm text-slate-400">
                   (021) 99402-7664
                 </p>
               </div>
               <div className="h-24 w-max   mt-2 grid 	justify-items-center  items-center ">
-                <img className="h-8" src="src/assets\github.svg"></img>
+                <img className="h-8" src={Git}></img>
                 <p className="text-white font-bold text-md">Github</p>
                 <a
                   href="https://github.com/Bruno02199rj"
@@ -180,7 +180,7 @@ function App() {
                 </a>
               </div>
               <div className="h-24 w-max   mt-2 grid 	justify-items-center  items-center ">
-                <img className="h-8" src="src/assets\linkedin.svg"></img>
+                <img className="h-8" src={Linkedin}></img>
                 <p className="text-white font-bold text-md">Linkedin</p>
                 <p className="text-white  text-sm text-slate-400">
                   brunodim1@hotmail.com

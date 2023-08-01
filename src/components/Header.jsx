@@ -1,6 +1,5 @@
 import { useState } from "react";
 
-
 const Header = () => {
   const [navModal, setNavModal] = useState();
 
