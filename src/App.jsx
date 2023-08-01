@@ -10,8 +10,16 @@ import Projects from "./components/Projects";
 
 import minhaImagem from "../src/assets/image 1.png"
 import Tailwind from "../src/assets/tailwindcss.svg"
-
-
+import Javascript from "../src/assets/javascript.svg"
+import ReactI from "../src/assets/react.svg"
+import Figma from "../src/assets/figma.svg"
+import Node from "../src/assets/node.svg"
+import  Netflix from "../src/assets/netflix.png"
+import NetflixDemo from "../src/assets/rec-tab.webm"
+import Clima from "../src/assets/app-clima-img.png"
+import ClimaDemo from "../src/assets/rec-tab-f.mp4"
+import Loja from "../src/assets/CAP-loja.png"
+import LojaDemo from "../src/assets/lotus-rec.mp4"
 
 function App() {
   const [modal, setModal] = useState();
@@ -30,13 +38,13 @@ function App() {
       email: "brunodim1@hotmail.com",
       stack: [
        ,Tailwind,
-        "src/assets/javascript.svg",
-        "src/assets/react.svg",
-        "src/assets/figma.svg",
+        Javascript,
+        ReactI,
+       Figma,
       ],
       stackName:['• REACT JS','• TAILWINDCSS','• FIGMA','• TMDB API ( The Movie Database O Banco de Dados de Filmes, mais conhecido pela sigla TMDb, é uma base de dados grátis e de código aberto, sobre filmes e seriados)' ],
-      image: "src/assets/Capturar best21.PNG",
-      url: "src/assets/rec-tab.webm",
+      image: Netflix,
+      url: NetflixDemo,
       repo: "https://github.com/Bruno02199rj/GetRep",
       project: "https://netflix-clone-d07bc.web.app/",
     },
@@ -46,14 +54,14 @@ function App() {
       description: "WeatherWeb é uma aplicação web que exibe a condição climática de todas as cidades, bairros, estados ou países do mundo",
       email: "bssssssssrunodim1@hotmail.com",
       stack: [
-        "src/assets/tailwindcss.svg",
-        "src/assets/javascript.svg",
-        "src/assets/react.svg",
-        "src/assets/figma.svg",
+        ,Tailwind,
+        Javascript,
+        ReactI,
+       Figma,
       ],
       stackName:['• REACT JS','• TAILWINDCSS','• FIGMA',' • WHEATHERAPI ( Acesso a estações meteorológicas globais em tempo real e milhões de pontos meteorológicos de alta resolução)' ],
-      image: "src/assets/app-clima-img.PNG",
-      url: "src/assets/rec-tab-f.mp4",
+      image: Clima,
+      url: ClimaDemo,
       repo: "https://github.com/Bruno02199rj/App-de-Clima",
       project: "https://app-clima-c469d.web.app/",
     },
@@ -63,15 +71,15 @@ function App() {
       description: "Loja é uma aplicação full-stack que consiste em uma apiREST que cadastra os produtos e do lado do cliente através de requisições http os exibimos",
       email: "bssssssssrunodim1@hotmail.com",
       stack: [
-        "src/assets/tailwindcss.svg",
-        "src/assets/javascript.svg",
-        "src/assets/react.svg",
-        "src/assets/figma.svg",
-        "src/assets/node.svg",
+        ,Tailwind,
+        Javascript,
+        ReactI,
+       Figma,
+        Node,
       ],
       stackName:['• REACT JS',' • TAILWINDCSS',' • FIGMA','• NODEJS', ],
-      image: "src/assets/CAP-loja.PNG",
-      url: "src/assets/lotus-rec.mp4",
+      image: Loja,
+      url: LojaDemo,
       repo: "https://github.com/Bruno02199rj/GetRep",
       project: "https://netflix-clone-d07bc.web.app/",
     },
@@ -138,7 +146,7 @@ function App() {
 
           <div></div>
 
-          <Habilidades />
+          <Habilidades  />
           <Projects data={data} />
           <div className="h-full w-full  ">
             <div className="w-full h-12 mt-48 min-[320px]:grid-cols-2 aling-center    grid  sm:grid-cols-4   justify-items-center  items-center">
