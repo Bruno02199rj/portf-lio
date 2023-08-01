@@ -20,6 +20,11 @@ import Clima from "../src/assets/app-clima.png"
 import ClimaDemo from "../src/assets/rec-tab-f.mp4"
 import Loja from "../src/assets/cap.png"
 import LojaDemo from "../src/assets/lotus-rec.mp4"
+import Linkedin from "../src/assets/linkedin.svg"
+import Git from "../src/assets/github.svg"
+import Mail from "../src/assets/mail.svg"
+import Phone from "../src/assets/phone.svg"
+
 
 function App() {
   const [modal, setModal] = useState();
@@ -110,10 +115,10 @@ function App() {
             </h1>
           </div>
           <div className="h-max w-max flex pl-4">
-            <img className=" h-8 pr-2" src="src/assets\linkedin.svg"></img>
-            <img className="h-8 pr-2" src="src/assets\github.svg"></img>
-            <img className="h-8 pr-2" src="src/assets\mail.svg"></img>
-            <img className="h-8 pr-2" src="src/assets\phone.svg"></img>
+            <img className=" h-8 pr-2" src={Linkedin}></img>
+            <img className="h-8 pr-2" src={Git}></img>
+            <img className="h-8 pr-2" src={Mail}></img>
+            <img className="h-8 pr-2" src={Phone}></img>
           </div>
 
           <div className="  h-0.5    w-full bg-gradient-to-l from-violet-900 to-fuchsia-800  mt-12">
