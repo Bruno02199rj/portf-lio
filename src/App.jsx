@@ -7,7 +7,11 @@ import "aos/dist/aos.css";
 import Header from "./components/Header";
 import Habilidades from "./components/Hability";
 import Projects from "./components/Projects";
-import minhaImagem from "../src/assets/css.svg"
+
+import minhaImagem from "../src/assets/image 1.png"
+import Tailwind from "../src/assets/tailwindcss.svg"
+
+
 
 function App() {
   const [modal, setModal] = useState();
@@ -25,7 +29,7 @@ function App() {
         "Netflix clone é uma pequena aplicação criada no intuito de praticar meus conhecimentos nas tecnologias abordadas. ",
       email: "brunodim1@hotmail.com",
       stack: [
-        "src/assets/tailwindcss.svg",
+       ,Tailwind,
         "src/assets/javascript.svg",
         "src/assets/react.svg",
         "src/assets/figma.svg",
