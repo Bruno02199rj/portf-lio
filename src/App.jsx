@@ -34,7 +34,7 @@ function App() {
       fullDescription:
         "Netflix clone é uma pequena aplicação criada no intuito de praticar meus conhecimentos nas tecnologias abordadas. Basicamente fazemos uma requisição via uma API que retorna informações de cada filme ela também retorna o trailer do filme. Os Filmes ficam separados por categoria.",
       description:
-        "Netflix clone é uma pequena aplicação criada no intuito de praticar meus conhecimentos nas tecnologias abordadas. ",
+        "Netflix clon e é uma pequena aplicação criada no intuito de praticar meus conhecimentos nas tecnologias abordadas. ",
       email: "brunodim1@hotmail.com",
       stack: [
        ,Tailwind,
