@@ -110,6 +110,11 @@ function App() {
     }
   ];
 
+ const Redirect = () =>{
+  window.location="https://wa.me/55219979186859";
+
+ }
+
   return (
     <>
       <Header />
@@ -135,10 +140,11 @@ function App() {
             </h1>
           </div>
           <div className="h-max w-max flex pl-4">
-            <img className=" h-8 pr-2" src={Linkedin}></img>
-            <img className="h-8 pr-2" src={Git}></img>
-            <img className="h-8 pr-2" src={Mail}></img>
-            <img className="h-8 pr-2" src={Phone}></img>
+           <a target="blank" href="https://www.linkedin.com/in/bruno-henrique-8ab67721a/"><img className=" h-8 pr-2"  src={Linkedin}></img></a> 
+            <a target="blank" href="https://github.com/Bruno02199rj"><img className="h-8 pr-2" src={Git}></img></a>
+            <a><img className="h-8 pr-2" src={Mail}></img></a>
+            
+            <a  target="blank" href="https://wa.me/55219979186859"><img   className="h-8 cursor-pointer pr-2" src={Phone}></img></a>
           </div>
 
           <div className="  h-0.5    w-full bg-gradient-to-l from-violet-900 to-fuchsia-800  mt-12">
