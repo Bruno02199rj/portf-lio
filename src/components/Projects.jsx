@@ -77,7 +77,7 @@ const Projects = ({ data }) => {
           <div class="relative z-40  p-0 scale-100  mt-12  ">
             <div class="relative  rounded-lg shadow bg-[#13131F]">
               <div class="flex justify-between items-start p-5 :border-gray-600">
-                <h3 class="text-xl font-semibold :text-[#8257E6] lg:text-2xl text-white">
+                <h3 class="text-xl font-semibold text-[#8257E6] lg:text-2xl ">
                   {modalData.name}
                 </h3>
                 <button
