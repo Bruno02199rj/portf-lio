@@ -105,8 +105,8 @@ function App() {
       stackName:['• REACT JS',' • TAILWINDCSS',' • FIGMA','• NODEJS', ],
       image: Portifolio,
       url: PortifolioDemo,
-      repo: "https://github.com/Bruno02199rj/GetRep",
-      project: "https://netflix-clone-d07bc.web.app/",
+      repo: "https://github.com/Bruno02199rj/GetRep", 
+      project: "brunohenrique.vercel.app",
     }
   ];
 

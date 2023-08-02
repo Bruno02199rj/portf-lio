@@ -75,14 +75,14 @@ const Projects = ({ data }) => {
           class=" backdrop-blur-sm mt-4  overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-30 w-full md:inset-0 h-full justify-center items-center"
         >
           <div class="relative z-40  p-0 scale-100  mt-12  ">
-            <div class="relative bg-white rounded-lg shadow dark:bg-[#13131F]">
-              <div class="flex justify-between items-start p-5 dark:border-gray-600">
-                <h3 class="text-xl font-semibold dark:text-[#8257E6] lg:text-2xl text-white">
+            <div class="relative bg-white rounded-lg shadow :bg-[#13131F]">
+              <div class="flex justify-between items-start p-5 :border-gray-600">
+                <h3 class="text-xl font-semibold :text-[#8257E6] lg:text-2xl text-white">
                   {modalData.name}
                 </h3>
                 <button
                   type="button"
-                  class=" rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:text-white"
+                  class=" rounded-lg text-sm p-1.5 ml-auto inline-flex items-center :hover:text-white"
                   data-modal-toggle="defaultModal"
                 >
                   <p
@@ -124,7 +124,7 @@ const Projects = ({ data }) => {
              {modalData.stack.map((e)=><img className="h-6 mr-2 w-6" src={e}></img>)}
 
              </div>
-              <div class="flex items-center  py-4 pl-6 space-x-2 rounded-b dark:border-gray-600">
+              <div class="flex items-center  py-4 pl-6 space-x-2 rounded-b :border-gray-600">
               
                 <a
                   target="_blank"

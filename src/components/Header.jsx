@@ -14,15 +14,13 @@ const Header = () => {
               class="h-8 mr-3"
               alt="Flowbite Logo"
             />
-            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Flowbite
-            </span>
+          
           </a>
           <button
             onClick={() => setNavModal(!navModal)}
             data-collapse-toggle="navbar-default"
             type="button"
-            class=" inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden   dark:text-gray-400  "
+            class=" inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden     "
             aria-controls="navbar-default"
             aria-expanded="false"
           >
@@ -41,13 +39,13 @@ const Header = () => {
               ></path>
             </svg>
           </button>
-          <ul class=" sm:hidden hidden font-medium md:flex flex-col p-4 md:p-0  mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0   dark:border-gray-700">
+          <ul class=" sm:hidden hidden font-medium md:flex flex-col p-4 md:p-0  mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0   :border-gray-700">
             <li>
               <a 
                 
              
                 href="#home"
-                class=" py-2  pl-2 pr-2   rounded md:bg-transparent  hover:text-[#8257e6] md:p-0 dark:text-white  "
+                class=" py-2  pl-2 pr-2 text-white  rounded md:bg-transparent  hover:text-[#8257e6] md:p-0 :text-white  "
                 aria-current="page"
               >
                 Home
@@ -91,7 +89,7 @@ const Header = () => {
           </ul>
           {navModal ? (
             <div class="  w-full md:block md:w-auto" id="navbar-default">
-              <ul class=" font-medium flex flex-col p-4 md:p-0  mt-4 border border-gray-100 rounded-lg bg-[#13131f] md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white  dark:border-gray-700">
+              <ul class=" font-medium flex flex-col p-4 md:p-0  mt-4 border border-gray-100 rounded-lg bg-[#13131f] md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white  :border-gray-700">
                 <li>
                   <a
                     onClick={() => setNavModal(!navModal)}
