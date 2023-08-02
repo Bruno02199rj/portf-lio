@@ -75,7 +75,7 @@ const Projects = ({ data }) => {
           class=" backdrop-blur-sm mt-4  overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-30 w-full md:inset-0 h-full justify-center items-center"
         >
           <div class="relative z-40  p-0 scale-100  mt-12  ">
-            <div class="relative bg-white rounded-lg shadow :bg-[#13131F]">
+            <div class="relative  rounded-lg shadow bg-[#13131F]">
               <div class="flex justify-between items-start p-5 :border-gray-600">
                 <h3 class="text-xl font-semibold :text-[#8257E6] lg:text-2xl text-white">
                   {modalData.name}
