@@ -9,7 +9,8 @@ import Figma from "/src/assets/figma.svg"
 
 const Habilidades = () => {
     return ( <>
-    <div  data-aos="fade-right" className='w-full h-max mt-12 	'><h1 className=' mt-72 text-white text-2xl mt-2 font-bold text-center mb-24 	 '>HABILIDADES</h1>
+ 
+    <div  data-aos="fade-right" className='w-full h-max mt-12 	'><h1  id="habilidades"  className=' mt-72 text-white text-2xl mt-2 font-bold text-center mb-24 	 '>HABILIDADES</h1>
 
 
 </div>

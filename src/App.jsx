@@ -24,6 +24,8 @@ import Linkedin from "../src/assets/linkedin.svg"
 import Git from "../src/assets/github.svg"
 import Mail from "../src/assets/mail.svg"
 import Phone from "../src/assets/phone.svg"
+import Portifolio from "../src/assets/portifolio.png"
+import PortifolioDemo from "../src/assets/portifolioG.mp4"
 
 
 function App() {
@@ -88,13 +90,31 @@ function App() {
       repo: "https://github.com/Bruno02199rj/GetRep",
       project: "https://netflix-clone-d07bc.web.app/",
     },
+    {
+      name: "Portifólio",
+      fullDescription: "Loja é uma aplicação full-stack que consiste em uma apiREST(criada com node) que cadastra produtos os produtos e sua informações no banco de dados. já no lado do cliente fazemos uma requisição http a essa api que nos retorna tais produtos e suas informações pertinentes   ",
+      description: "Loja é uma aplicação full-stack que consiste em uma apiREST que cadastra os produtos e do lado do cliente através de requisições http os exibimos",
+      email: "bssssssssrunodim1@hotmail.com",
+      stack: [
+        ,Tailwind,
+        Javascript,
+        ReactI,
+       Figma,
+        Node,
+      ],
+      stackName:['• REACT JS',' • TAILWINDCSS',' • FIGMA','• NODEJS', ],
+      image: Portifolio,
+      url: PortifolioDemo,
+      repo: "https://github.com/Bruno02199rj/GetRep",
+      project: "https://netflix-clone-d07bc.web.app/",
+    }
   ];
 
   return (
     <>
       <Header />
 
-      <section className=" h-96  flex flex-wrap   ">
+      <section id="home" className=" h-96  flex flex-wrap   ">
         <div className="h-max min-[300px]:w-full   ">
           <div
             data-aos="fade-right"
@@ -125,16 +145,16 @@ function App() {
             {" "}
           </div>
 
-          <div className="h-max  w-full flex text-center  justify-center lg:mt-52  ">
+          <div id="sobre" className="h-max   w-full flex text-center  justify-center lg:mt-52  ">
             <div
               data-aos="fade-right"
               className=" aling-center  px-4 sm:w-full lg:w-1/2   "
             >
-              <h1 className="text-white text-3xl mb-12 mt-20  font-bold">
+              <h1  className="text-white text-3xl mb-12 mt-20  font-bold">
                 Sobre mim
               </h1>
 
-              <span className="text-[#828282] leading-4  text-center text-1xl pt-12  ">
+              <span  className="text-[#828282] leading-4  text-center text-1xl pt-12  ">
                 Meu name é Bruno Henrique sou desenvolvedor Front-end. com
                 experiência em React.js, JavaScript, Tailwind, Figma e consumo
                 de APIs REST. Também possuo experiência em desenvolvimento
@@ -151,9 +171,9 @@ function App() {
 
           <div></div>
 
-          <Habilidades  />
+          <Habilidades   />
           <Projects data={data} />
-          <div className="h-full w-full  ">
+          <div id="contatos" className="h-full w-full  ">
             <div className="w-full h-12 mt-48 min-[320px]:grid-cols-2 aling-center    grid  sm:grid-cols-4   justify-items-center  items-center">
               <div className="h-24 w-max   mt-2 grid 	justify-items-center  items-center ">
                 <img className="h-8" src={Mail}></img>
@@ -180,7 +200,7 @@ function App() {
                 </a>
               </div>
               <div className="h-24 w-max   mt-2 grid 	justify-items-center  items-center ">
-                <img className="h-8" src={Linkedin}></img>
+                <img  className="h-8" src={Linkedin}></img>
                 <p className="text-white font-bold text-md">Linkedin</p>
                 <p className="text-white  text-sm text-slate-400">
                   brunodim1@hotmail.com

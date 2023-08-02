@@ -2,11 +2,11 @@ import { useState } from "react";
 
 const Header = () => {
   const [navModal, setNavModal] = useState();
+  
 
-
-  return (
+  return (  
     <>
-      <nav class=" border-gray-200  border-gray-200   bg-[#1A0B2E] text-sm w-full fixed z-50">
+      <nav class=" border-gray-200  border-gray-200   bg-[#11071f] text-sm w-full fixed z-50">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
           <a href="https://flowbite.com/" class="flex items-center">
             <img
@@ -43,9 +43,11 @@ const Header = () => {
           </button>
           <ul class=" sm:hidden hidden font-medium md:flex flex-col p-4 md:p-0  mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0   dark:border-gray-700">
             <li>
-              <a
-                href="#"
-                class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+              <a 
+                
+             
+                href="#home"
+                class=" py-2  pl-2 pr-2   rounded md:bg-transparent  hover:text-[#8257e6] md:p-0 dark:text-white  "
                 aria-current="page"
               >
                 Home
@@ -53,79 +55,86 @@ const Header = () => {
             </li>
             <li>
               <a
-                href="#"
-                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+             
+                href="#sobre"
+                class="block py-2 pl-2 pr-2 text-white rounded  hover:text-[#8257e6] md:border-0 md:p-0 "
               >
-                About
+                Sobre
               </a>
             </li>
             <li>
               <a
-                href="#"
-                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+             href="#habilidades"
+                class="block  pl-2 pr-2 text-white rounded  hover:text-[#8257e6] "
               >
-                Services
+                Habilidades
               </a>
             </li>
             <li>
               <a
-                href="#"
-                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                href="#projetos"
+                
+                class="block  pl-2 pr-2 text-white rounded  hover:text-[#8257e6] "
               >
-                Pricing
+                Projetos
               </a>
             </li>
             <li>
               <a
-                href="#"
-                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                href="#contatos"
+                 
+                class="block  pl-2 pr-2 text-white rounded  hover:text-[#8257e6] "
               >
-                Contact
+                Contato
               </a>
             </li>
           </ul>
           {navModal ? (
             <div class="  w-full md:block md:w-auto" id="navbar-default">
-              <ul class=" font-medium flex flex-col p-4 md:p-0  mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+              <ul class=" font-medium flex flex-col p-4 md:p-0  mt-4 border border-gray-100 rounded-lg bg-[#13131f] md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white  dark:border-gray-700">
                 <li>
                   <a
-                    href="#"
-                    class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
-                    aria-current="page"
+                    onClick={() => setNavModal(!navModal)}
+                    href="#home"
+                    class="block py-2 pl-3 pr-4 text-white    hover:bg-[#231536] rounded " 
                   >
                     Home
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#"
-                    class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                   onClick={() => setNavModal(!navModal)}
+                   href="#sobre"
+                   class="block py-2 pl-3 pr-4 text-white    hover:bg-[#231536] rounded " 
                   >
-                    About
+                    Sobre
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#"
-                    class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                    href="#habilidades"
+                     onClick={() => setNavModal(!navModal)}
+                     class="block py-2 pl-3 pr-4 text-white    hover:bg-[#231536] rounded " 
                   >
-                    Services
+                    Habilidades
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#"
-                    class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                    href="#projetos"
+                     onClick={() => setNavModal(!navModal)}
+                     class="block py-2 pl-3 pr-4 text-white    hover:bg-[#231536] rounded " 
                   >
-                    Pricing
+                    Projetos
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#"
-                    class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  href="#contatos"
+                   onClick={() => setNavModal(!navModal)}
+                   class="block py-2 pl-3 pr-4 text-white    hover:bg-[#231536] rounded " 
                   >
-                    Contact
+                    Contatos
                   </a>
                 </li>
               </ul>
