@@ -8,6 +8,8 @@ import Header from "./components/Header";
 import Habilidades from "./components/Hability";
 import Projects from "./components/Projects";
 
+import Type from "./components/Type";
+
 import minhaImagem from "../src/assets/image 1.png"
 import Tailwind from "../src/assets/tailwindcss.svg"
 import Javascript from "../src/assets/javascript.svg"
@@ -131,7 +133,8 @@ function App() {
               data-aos="fade-up"
               className="text-purple-700 bg-gradient-to-l from-transparent 	 from-[#130428] to-fuchsia-950 font-bold sm:flex	 mt-12 text-4xl lg:text-5xl"
             >
-              Desenvolvedor Front-End
+             
+             <Type/>
             </h1>
           </div>
           <div className="h-max w-max flex pl-4">
@@ -146,7 +149,7 @@ function App() {
             {" "}
           </div>
 
-          <div id="sobre" className="h-max   w-full flex text-center  justify-center lg:mt-52  ">
+          <div id="sobre" className="h-max  md:mt-[22rem]  w-full flex text-center  justify-center lg:mt-52  ">
             <div
               data-aos="fade-right"
               className=" aling-center  px-4 sm:w-full lg:w-1/2   "
