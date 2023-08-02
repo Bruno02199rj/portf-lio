@@ -110,11 +110,6 @@ function App() {
     }
   ];
 
- const Redirect = () =>{
-  window.location="https://wa.me/55219979186859";
-
- }
-
   return (
     <>
       <Header />
@@ -144,7 +139,7 @@ function App() {
             <a target="blank" href="https://github.com/Bruno02199rj"><img className="h-8 pr-2" src={Git}></img></a>
             <a><img className="h-8 pr-2" src={Mail}></img></a>
             
-            <a  target="blank" href="https://wa.me/55219979186859"><img   className="h-8 cursor-pointer pr-2" src={Phone}></img></a>
+            <a  target="blank" href="https://wa.me/5521979186859"><img   className="h-8 cursor-pointer pr-2" src={Phone}></img></a>
           </div>
 
           <div className="  h-0.5    w-full bg-gradient-to-l from-violet-900 to-fuchsia-800  mt-12">
