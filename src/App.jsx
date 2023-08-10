@@ -28,6 +28,7 @@ import Mail from "../src/assets/mail.svg"
 import Phone from "../src/assets/phone.svg"
 import Portifolio from "../src/assets/portifolio.png"
 import PortifolioDemo from "../src/assets/portifolioG.mp4"
+import { Analytics } from '@vercel/analytics/react';
 
 
 function App() {
@@ -214,6 +215,7 @@ function App() {
             </div>
           </div>
         </div>
+        <Analytics/>
       </section>
     </>
   );
