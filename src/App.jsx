@@ -163,7 +163,7 @@ function App() {
                 Meu name é Bruno Henrique sou um desenvolvedor que possui conhecimento em:
                 C#, .Net ,JavaScript , NodeJs , desenvolvimento de Api´s REST, ReactJs, TailwindCss , Sql, MongoDb.
                 alem de conhecer algumas  ferrramentas de prototipagem de intefaces de usuário como figma.
-                Tambem conheço sobre o padrão de arquitetura MVC.
+                Tambem conheço sobre versionamento com o git e o padrão de arquitetura MVC.
                 Cursando Ciencia da computação. Me preocupo muito em desenvolver
                 meus projetos seguindo as boas praticas ultilizadas no
                 desenvolvimento de software e estou sempre em busca de aprimorar
