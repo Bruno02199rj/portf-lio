@@ -5,7 +5,8 @@ import Javascript from "/src/assets/javascript.svg"
 import ReactI from "/src/assets/react.svg"
 import Node from "/src/assets/node.svg"
 import Figma from "/src/assets/figma.svg"
-
+import Csharp from "/src/assets/csharp.png"
+import Mongoicon from "/src/assets/mongoicon.png"
 
 const Habilidades = () => {
     return ( <>
@@ -37,6 +38,12 @@ const Habilidades = () => {
     
 </div>
 <div className='h-max  bg-[#13131F] mt-2 grid 	justify-items-center  items-center  w-32'>
+    <p className='p-4 text-[#8257E6] text-center font-bold'>C#</p>
+    <img className='h-8' src={Csharp}></img>
+    <div className='w-full h-0.5 mt-6  w-full bg-gradient-to-l from-violet-900 to-fuchsia-800 '></div>
+    
+</div>
+<div className='h-max  bg-[#13131F] mt-2 grid 	justify-items-center  items-center  w-32'>
     <p className='p-4 text-[#8257E6] text-center font-bold'>JAVASCRIPT</p>
     <img className='h-8' src={Javascript}></img>
     <div className='w-full h-0.5 mt-6  w-full bg-gradient-to-l from-violet-900 to-fuchsia-800 '></div>
@@ -53,6 +60,13 @@ ms-center  w-32'>
 ms-center  w-32'>
     <p className='p-4 text-[#8257E6] text-center font-bold'>NODEJS</p>
     <img className='h-14' src={Node}></img>
+    <div className='w-full h-0.5   w-full bg-gradient-to-l from-violet-900 to-fuchsia-800 '></div>
+    
+</div>
+<div className='h-max  bg-[#13131F] mt-2 grid 	justify-items-center  ite
+ms-center  w-32'>
+    <p className='p-4 text-[#8257E6] text-center font-bold'>MONGODB</p>
+    <img className='h-14' src={Mongoicon}></img>
     <div className='w-full h-0.5   w-full bg-gradient-to-l from-violet-900 to-fuchsia-800 '></div>
     
 </div>

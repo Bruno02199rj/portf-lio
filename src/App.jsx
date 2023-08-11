@@ -22,6 +22,7 @@ import Clima from "../src/assets/app-clima.png"
 import ClimaDemo from "../src/assets/rec-tab-f.mp4"
 import Loja from "../src/assets/cap.png"
 import LojaDemo from "../src/assets/lotus-rec.mp4"
+import PostmanDemo from "../src/assets/recpostman.mp4"
 import CapturePost from "../src/assets/capturarapi.png"
 
 import Linkedin from "../src/assets/linkedin.svg"
@@ -98,18 +99,16 @@ function App() {
     },
     {
       name: "Loja Api",
-      fullDescription: "Loja é uma aplicação full-stack que consiste em uma apiREST(criada com node) que cadastra produtos os produtos e sua informações no banco de dados. já no lado do cliente fazemos uma requisição http a essa api que nos retorna tais produtos e suas informações pertinentes   ",
-      description: "Loja é uma aplicação full-stack que consiste em uma apiREST que cadastra os produtos e do lado do cliente através de requisições http os exibimos",
+      fullDescription: "Realiza o cadastro e o controle dos produtos e faz integração com getway de pagamentos pagseguro ",
+      description: "Api desenvolvida em nodejs",
       email: "bssssssssrunodim1@hotmail.com",
       stack: [
-        ,Tailwind,
-        Javascript,
-       Figma,
+  
         Node,
       ],
-      stackName:['• REACT JS',' • TAILWINDCSS',' • FIGMA','• NODEJS', ],
+      stackName:['• NODEJS','• MONGODB', '• POSTMAN','• PAGSEGURO'],
       image: CapturePost,
-      url: LojaDemo,
+      url: PostmanDemo,
       repo: "https://github.com/Bruno02199rj/Server",
     
     },
