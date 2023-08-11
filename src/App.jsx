@@ -22,9 +22,12 @@ import Clima from "../src/assets/app-clima.png"
 import ClimaDemo from "../src/assets/rec-tab-f.mp4"
 import Loja from "../src/assets/cap.png"
 import LojaDemo from "../src/assets/lotus-rec.mp4"
+import CapturePost from "../src/assets/capturarapi.png"
+
 import Linkedin from "../src/assets/linkedin.svg"
 import Git from "../src/assets/github.svg"
 import Mail from "../src/assets/mail.svg"
+
 import Phone from "../src/assets/phone.svg"
 import Portifolio from "../src/assets/portifolio.png"
 import PortifolioDemo from "../src/assets/portifolioG.mp4"
@@ -73,7 +76,7 @@ function App() {
       image: Clima,
       url: ClimaDemo,
       repo: "https://github.com/Bruno02199rj/App-de-Clima",
-      project: "https://app-clima-c469d.web.app/",
+      project: "https://wheatherweb.vercel.app/",
     },
     {
       name: "Loja",
@@ -90,8 +93,25 @@ function App() {
       stackName:['• REACT JS',' • TAILWINDCSS',' • FIGMA','• NODEJS', ],
       image: Loja,
       url: LojaDemo,
-      repo: "https://github.com/Bruno02199rj/GetRep",
+      repo: "https://github.com/Bruno02199rj/Loja",
       project: "https://netflix-clone-d07bc.web.app/",
+    },
+    {
+      name: "Loja Api",
+      fullDescription: "Loja é uma aplicação full-stack que consiste em uma apiREST(criada com node) que cadastra produtos os produtos e sua informações no banco de dados. já no lado do cliente fazemos uma requisição http a essa api que nos retorna tais produtos e suas informações pertinentes   ",
+      description: "Loja é uma aplicação full-stack que consiste em uma apiREST que cadastra os produtos e do lado do cliente através de requisições http os exibimos",
+      email: "bssssssssrunodim1@hotmail.com",
+      stack: [
+        ,Tailwind,
+        Javascript,
+       Figma,
+        Node,
+      ],
+      stackName:['• REACT JS',' • TAILWINDCSS',' • FIGMA','• NODEJS', ],
+      image: CapturePost,
+      url: LojaDemo,
+      repo: "https://github.com/Bruno02199rj/Server",
+    
     },
     {
       name: "Portifólio",
