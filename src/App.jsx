@@ -160,16 +160,15 @@ function App() {
               </h1>
 
               <span  className="text-[#828282] leading-4  text-center text-1xl pt-12  ">
-                Meu name é Bruno Henrique sou desenvolvedor Front-end. com
-                experiência em React.js, JavaScript, Tailwind, Figma e consumo
-                de APIs REST. Também possuo experiência em desenvolvimento
-                back-end com NodeJs, Express, WebSockets e Banco de dados (MongoDB)
+                Meu name é Bruno Henrique sou um desenvolvedor que possui conhecimento em:
+                C#, .Net ,JavaScript , NodeJs , desenvolvimento de Api´s REST, ReactJs, TailwindCss , Sql, MongoDb.
+                alem de conhecer algumas  ferrramentas de prototipagem de intefaces de usuário como figma.
+                Tambem conheço sobre o padrão de arquitetura MVC.
                 Cursando Ciencia da computação. Me preocupo muito em desenvolver
                 meus projetos seguindo as boas praticas ultilizadas no
                 desenvolvimento de software e estou sempre em busca de aprimorar
                 ainda mais meus conhecimentos . atualmente ando estudando
-                typeScript, testes unitarios, testes end-to-end,testes de
-                integração, hooks como useRef,UseMemo,etc .
+                typeScript, testes unitarios, hooks como useRef,UseMemo,etc .
               </span>
             </div>
           </div>

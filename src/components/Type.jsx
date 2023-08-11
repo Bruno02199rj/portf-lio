@@ -5,7 +5,7 @@ export default () => {
         <div className="App ">
            <TypeIt
             options={{
-                    strings: ["Desenvolvedor Front End"],
+                    strings: ["Desenvolvedor Full-Stack"],
                     
                     speed: 60,
                     waitUntilVisible: true,
