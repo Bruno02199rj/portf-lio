@@ -24,7 +24,7 @@ const Projects = ({ data }) => {
         <div className="h-0.5  px-4 w-20 bg-gradient-to-l from-violet-900 to-fuchsia-800 "></div>
      
 
-      <div className="h-max  mt-32 w-full  grid   lg:grid-cols-3 md:grid-cols-2 justify-items-center  items-center content-center">
+      <div className="h-max  mt-32 w-full  grid   lg:grid-cols-4 md:grid-cols-2 justify-items-center  items-center content-center">
         {data.map((item) => {
   
           return (
@@ -34,7 +34,7 @@ const Projects = ({ data }) => {
                 className=" h-[24rem]  w-full mb-8 sm:h-96 lg:h-[22rem] lg:w-72  sm:w-96 hover:mix-blend-normal  md:hover:scale-[1.1] transition duration-150 ease-out hover:ease-in bg-gradient-to-l from-transparent 	 from-[#130428] to-fuchsia-950 mx-4 my-4"
               >
                 <div className="w-full h-52 ">
-                  <img className="h-[9.5rem] w-full" src={item.image}></img>
+                  <img className="h-[12.5rem]  md:h-max w-full" src={item.image}></img>
                   <div className="h-12 px-4 w-full mt-8 ">
                     <span className="text-white text-1xl font-bold">
                       {item.name}

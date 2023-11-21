@@ -142,11 +142,10 @@ function App() {
             data-aos="fade-right"
             className="h-12  w-full ml-42 flex justify-center"
           >
-            <div className="h-48   grid justify-center 	mt-24  w-48 rounded-full bg-gradient-to-l from-violet-900 to-fuchsia-800 from-transparent	 ">
-              <img className="h-36    m-0 " src={minhaImagem}></img>
+            <div className="h-48   hidden sm:block    sm:grid justify-center 	mt-36  w-48 rounded-full bg-gradient-to-l from-violet-900 to-fuchsia-800 from-transparent	 ">
+              <img className=" h-36      m-0 " src={minhaImagem}></img>
             </div>
-          </div>
-          <div className="md:break h-52 w-72 px-4  radius-xl  mt-80 lg:mt-12 ">
+            <div className="md:break sm:h-52 sm:w-72 px-4   radius-xl  mt-52 sm:mt-32 lg:mt-32">
             <span className="text-white">Olá me chamo</span>{" "}
             <span className="text-[#7127BA]">Bruno Henrique</span>
             <h1
@@ -155,21 +154,27 @@ function App() {
             >
              
              <Type/>
+             
             </h1>
-          </div>
-          <div className="h-max w-max flex pl-4">
+            <div className="h-max w-max flex my-2">
            <a target="blank" href="https://www.linkedin.com/in/bruno-henrique-8ab67721a/"><img className=" h-8 pr-2"  src={Linkedin}></img></a> 
             <a target="blank" href="https://github.com/Bruno02199rj"><img className="h-8 pr-2" src={Git}></img></a>
             <a><img className="h-8 pr-2" src={Mail}></img></a>
             
             <a  target="blank" href="https://wa.me/5521979186859"><img   className="h-8 cursor-pointer pr-2" src={Phone}></img></a>
           </div>
+          </div>
+          </div>
+          
+          
+
+     
 
           <div className="  h-0.5    w-full bg-gradient-to-l from-violet-900 to-fuchsia-800  mt-12">
             {" "}
           </div>
 
-          <div id="sobre" className="h-max  md:mt-[22rem]  w-full flex text-center  justify-center lg:mt-52  ">
+          <div id="sobre" className="h-max  mt-[22rem]  w-full flex text-center  justify-center lg:mt-64   ">
             <div
               data-aos="fade-right"
               className=" aling-center  px-4 sm:w-full lg:w-1/2   "
