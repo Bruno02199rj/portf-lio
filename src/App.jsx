@@ -127,7 +127,7 @@ function App() {
       stackName:['• REACT JS',' • TAILWINDCSS',' • FIGMA','• NODEJS', ],
       image: Portifolio,
       url: PortifolioDemo,
-      repo: "https://github.com/Bruno02199rj/GetRep", 
+      repo: "https://github.com/Brun  o02199rj/GetRep", 
       project: "brunohenrique.vercel.app",
     }
   ];
@@ -174,8 +174,8 @@ function App() {
             {" "}
           </div>
 
-          <div id="sobre" className="h-max  mt-[22rem]  w-full flex text-center  justify-center lg:mt-64   ">
-            <div
+          <div id="sobre" className="h-max  mt-[22rem]   w-full flex text-center  justify-center lg:mt-64   ">
+            <div  
               data-aos="fade-right"
               className=" aling-center  px-4 sm:w-full lg:w-1/2   "
             >
@@ -183,16 +183,12 @@ function App() {
                 Sobre mim
               </h1>
 
-              <span  className="text-[#828282] leading-4  text-center text-1xl pt-12  ">
-                Meu name é Bruno Henrique sou um desenvolvedor que possui conhecimento em:
-                C#, .Net ,JavaScript , NodeJs , desenvolvimento de Api´s REST, ReactJs, TailwindCss , Sql, MongoDb.
-                alem de conhecer algumas  ferrramentas de prototipagem de intefaces de usuário como figma.
-                Tambem conheço sobre versionamento com o git e o padrão de arquitetura MVC.
-                Cursando Ciencia da computação. Me preocupo muito em desenvolver
-                meus projetos seguindo as boas praticas ultilizadas no
-                desenvolvimento de software e estou sempre em busca de aprimorar
-                ainda mais meus conhecimentos . atualmente ando estudando
-                typeScript, testes unitarios, hooks como useRef,UseMemo,etc .
+              <span  className="text-[#828288] leading-4  text-center text-lg pt-12  ">
+Meu nome é Bruno Henrique, sou entusiasta da tecnologia e desenvolvedor Full Stack, tenho 24 anos e estou graduando em ciência da computação pela universidade Estácio do Rio de Janeiro. Possuo conhecimento em algumas linguagens e tecnologias modernas como:
+C#, .Net Core,  .Net Framework, TypeScript, ReactJs, TailwindCss, NodeJs, Php, Sql Server, Mongo Db e Swagger. Possuo uma base sólida em desenvolvimento e consumo de APIs REST e Padrões de projetos como: Microsserviços, MVC e Cliente Servidor. Possuo também conhecimento em cloud utilizando Azure e AWS.
+Entendo a importância da implementação de boas práticas no desenvolvimento de software e por isso procuro escrever código limpo e testável seguindo conceitos como: SOLID, Clean Code, Test Driven Development, atualmente estou estudando teste unitários, Docker, KISS, CI/CD entre outros.
+Estou preparado para contribuir com o time, absorver conhecimento, me desenvolver como profissional.
+               
               </span>
             </div>
           </div>
