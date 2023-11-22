@@ -1,4 +1,5 @@
 import { useState } from "react";
+import minhaImagem from "/src/assets/image 1.png"
 
 const Header = () => {
   const [navModal, setNavModal] = useState();
@@ -8,14 +9,11 @@ const Header = () => {
     <>
       <nav class=" border-gray-200  border-gray-200   bg-[#11071f] text-sm w-full fixed z-50">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
-          <a href="https://flowbite.com/" class="flex items-center">
-            <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              class="h-8 mr-3"
-              alt="Flowbite Logo"
-            />
+        <div className="h-24 w-24   grid  justify-center 	   rounded-full bg-gradient-to-l from-violet-900 to-fuchsia-800 from-transparent	 ">
+              <img className=" h-12     mt-4 " src={minhaImagem}></img>
+            </div>
           
-          </a>
+          
           <button
             onClick={() => setNavModal(!navModal)}
             data-collapse-toggle="navbar-default"

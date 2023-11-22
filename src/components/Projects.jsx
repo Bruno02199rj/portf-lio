@@ -19,8 +19,12 @@ const Projects = ({ data }) => {
           data-aos="fade-right"
           className="text-white font-bold text-xl mt-32 px-4 "
         >
+          
           Projetos
         </h1>
+
+       
+
         <div className="h-0.5  px-4 w-20 bg-gradient-to-l from-violet-900 to-fuchsia-800 "></div>
      
 
@@ -29,36 +33,46 @@ const Projects = ({ data }) => {
   
           return (
             <>
+              
+              
               <div
                 onClick={() => modal(item)}
-                className=" h-[24rem]  w-full mb-8 sm:h-96 lg:h-[22rem] lg:w-72  sm:w-96 hover:mix-blend-normal  md:hover:scale-[1.1] transition duration-150 ease-out hover:ease-in bg-gradient-to-l from-transparent 	 from-[#130428] to-fuchsia-950 mx-4 my-4"
+               
+
+                className=" before:absolute before:h-[14rem] lg:before:h-[12rem] mt-4  bg-black    before:opacity-75 before:w-max lg:before:w-72  before:bg-black h-[24rem]  w-full mb-8 sm:h-96 lg:h-[14rem] lg:w-72  sm:w-96 hover:mix-blend-normal before:hover:opacity-0  md:hover:scale-[1.1] transition duration-150 ease-out  mx-4 "
               >
+                
+ 
                 <div className="w-full h-52 ">
-                  <img className="h-[12.5rem]  md:h-max w-full" src={item.image}></img>
-                  <div className="h-12 px-4 w-full mt-8 ">
-                    <span className="text-white text-1xl font-bold">
+                  <span className="  text-white text-center   text-1xl block relative font-bold">
                       {item.name}
                     </span>
-                    <br />
-                    <span className="text-[#828282] text-sm">{item.description}</span>
-                    <div className="flex  mt-2 text-sm">
-                      
+                  <img className="h-[12rem]  md:h-max w-full" src={item.image}></img>
+                  
+                    <div className="flex justify-center   text-sm">
+                     
 
                    
-                      {item.stack.map((item) => {
-              
+                     {item.stack.map((item) => {
+             
 
-                        return (
-                          <>
-                            <img className="h-6 mt-2 mx-1.5 w-6" src={item}></img>
-                          </>
-                        );
-                      })}
-                      
-                    </div>
+                       return (
+                         <>
+                           <img className="h-6 mt-2 relative mx-2  w-6" src={item}></img>
+                         </>
+                       );
+                     })}
+                     
+                   </div>
+                  <div className="h-12 px-4 w-full mt-8 ">
+                    
+                    <br />
+                 
+                  
                   </div>
                 </div>
               </div>
+          
             </>
           );
         })}
